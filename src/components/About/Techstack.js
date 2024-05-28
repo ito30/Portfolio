@@ -9,13 +9,13 @@ import {
   DiPython,
   DiGit,
   DiJava,
+  DiGoogleCloudPlatform,
 } from "react-icons/di";
 import {
   SiRedis,
-  SiFirebase,
   SiNextdotjs,
-  SiSolidity,
   SiPostgresql,
+  SiSpringboot,
 } from "react-icons/si";
 import { TbBrandGolang } from "react-icons/tb";
 
@@ -23,46 +23,43 @@ function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        Javascript <br/> <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        Golang <br/> <TbBrandGolang />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
+        Nodejs <br/> <DiNodejs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        GCP <br/> <DiGoogleCloudPlatform />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        Java <br/> <DiJava />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
+        Spring Boot <br/> <SiSpringboot />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+        Git <br/> <DiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
+        Redis <br/> <SiRedis />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        PostgreSQL <br/> <SiPostgresql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
+        Python <br/> <DiPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
+        MongoDB <br/> <DiMongodb />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
+        Nextjs <br/> <SiNextdotjs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+        React <br/> <DiReact />
       </Col>
     </Row>
   );
