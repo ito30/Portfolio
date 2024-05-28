@@ -47,7 +47,7 @@ function Projects() {
               imgPath={ocHome}
               isBlog={false}
               title="Office Coffee App"
-              description="The Office Coffee App saves you time by making it easy to enjoy high-quality coffee every day. With the app, users can pre-order their favorite coffee in advance and receive notifications when their order is ready, eliminating the stress and uncertainty of queuing. I led and built a team of 7 from scratch, including backend engineers, iOS engineers, a web engineer, and a QA specialist. The app is developed with Swift for iOS, Go for the backend, Redis & Redis Stream for real-time data, PostgreSQL for database management, Firebase for push notifications, and hosted on Vercel and Fly.io."
+              description="The Office Coffee App saves you time by making it easy to enjoy high-quality coffee every day. With the app, users can pre-order their favorite coffee in advance and receive notifications when their order is ready, eliminating the stress and uncertainty of queuing. I led and built a team of 7 from scratch, including backend engineers, iOS engineers, a web engineer, and a QA specialist. The app is developed with Swift for iOS, Go for the backend, Redis & Redis Stream for real-time data, PostgreSQL for database management, Firebase for push notifications, and hosted on Railway and Fly.io."
               // demoLink="https://editor.soumya-jit.tech/"
             />
           </Col>
@@ -57,7 +57,7 @@ function Projects() {
               imgPath={ocIntools}
               isBlog={false}
               title="Office Coffee Dashboard"
-              description="The Office Coffee Dashboard is a comprehensive tool used for maintaining internal operations across all Office Coffee Shops. It has features like revenue management, product management, voucher management, subscription management, and membership management. The dashboard is built with a robust tech stack including React for the frontend, Go for the backend, Redis & Redis Stream for real-time data, PostgreSQL for database management, Firebase for push notifications, and hosted on Vercel and Fly.io. This integrated system ensures efficient operations and enhanced customer satisfaction."
+              description="The Office Coffee Dashboard is a comprehensive tool used for maintaining internal operations across all Office Coffee Shops. It has features like revenue management, product management, voucher management, subscription management, and membership management. The dashboard is built with a robust tech stack including React for the frontend, Go for the backend, Redis & Redis Stream for real-time data, PostgreSQL for database management, Firebase for push notifications, and hosted on Railway and Fly.io. This integrated system ensures efficient operations and enhanced customer satisfaction."
             // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>

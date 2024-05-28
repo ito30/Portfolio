@@ -19,7 +19,7 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-            I am a Software Engineer with over 6 years of experience in helping to build technologies in startup companies.
+            I am a Software Engineer with over 8 years of experience in helping to build technologies in startup companies.
               <br />
               <br />I am fluent in
               <i>
