@@ -22,6 +22,26 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={ocHome}
+              isBlog={false}
+              title="Office Coffee App"
+              description="The Office Coffee App saves you time by making it easy to enjoy high-quality coffee every day. With the app, users can pre-order their favorite coffee in advance and receive notifications when their order is ready, eliminating the stress and uncertainty of queuing. I led and built a team of 7 from scratch, including backend engineers, iOS engineers, a web engineer, and a QA specialist. The app is developed with Swift for iOS, Go for the backend, Redis & Redis Stream for real-time data, PostgreSQL for database management, Firebase for push notifications, and hosted on Railway and Fly.io."
+              // demoLink="https://editor.soumya-jit.tech/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ocIntools}
+              isBlog={false}
+              title="Office Coffee Dashboard"
+              description="The Office Coffee Dashboard is a comprehensive tool used for maintaining internal operations across all Office Coffee Shops. It has features like revenue management, product management, voucher management, subscription management, and membership management. The dashboard is built with a robust tech stack including React for the frontend, Go for the backend, Redis & Redis Stream for real-time data, PostgreSQL for database management, Firebase for push notifications, and hosted on Railway and Fly.io. This integrated system ensures efficient operations and enhanced customer satisfaction."
+            // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={topedPdp}
               isBlog={false}
               title="Tokopedia PDP"
@@ -39,26 +59,6 @@ function Projects() {
               description="Tokopedia, a leading marketplace in Indonesia, serves tens of millions of monthly active users. As the service owner for Product Reviews, I ensure high performance and continuous innovation. Built with Go, PostgreSQL, Redis, Elasticsearch, and NSQ, our system handles up to 7,500 RPS in load testing and 3,500 RPS during regular operations. This reliability builds user trust, enhances engagement, boosts satisfaction, and improves conversion rates, driving Tokopedia's growth and success."
               // ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
               demoLink="https://www.tokopedia.com/erigo/celana-unisex-erigo-chino-pants-zeno-light-brown-zeno-l-brown-36/review"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={ocHome}
-              isBlog={false}
-              title="Office Coffee App"
-              description="The Office Coffee App saves you time by making it easy to enjoy high-quality coffee every day. With the app, users can pre-order their favorite coffee in advance and receive notifications when their order is ready, eliminating the stress and uncertainty of queuing. I led and built a team of 7 from scratch, including backend engineers, iOS engineers, a web engineer, and a QA specialist. The app is developed with Swift for iOS, Go for the backend, Redis & Redis Stream for real-time data, PostgreSQL for database management, Firebase for push notifications, and hosted on Railway and Fly.io."
-              // demoLink="https://editor.soumya-jit.tech/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={ocIntools}
-              isBlog={false}
-              title="Office Coffee Dashboard"
-              description="The Office Coffee Dashboard is a comprehensive tool used for maintaining internal operations across all Office Coffee Shops. It has features like revenue management, product management, voucher management, subscription management, and membership management. The dashboard is built with a robust tech stack including React for the frontend, Go for the backend, Redis & Redis Stream for real-time data, PostgreSQL for database management, Firebase for push notifications, and hosted on Railway and Fly.io. This integrated system ensures efficient operations and enhanced customer satisfaction."
-            // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
 
