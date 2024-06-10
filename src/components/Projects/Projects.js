@@ -35,7 +35,7 @@ function Projects() {
               imgPath={ocIntools}
               isBlog={false}
               title="Office Coffee Dashboard"
-              description="The Office Coffee Dashboard is a comprehensive tool used for maintaining internal operations across all Office Coffee Shops. It has features like revenue management, product management, voucher management, subscription management, and membership management. The dashboard is built with a robust tech stack including React for the frontend, Go for the backend, Redis & Redis Stream for real-time data, PostgreSQL for database management, Firebase for push notifications, and hosted on Railway and Fly.io. This integrated system ensures efficient operations and enhanced customer satisfaction."
+              description="The Office Coffee Dashboard is a comprehensive tool used for maintaining internal operations across all Office Coffee Shops. It has features like revenue management, product management, voucher management, subscription management, and membership management. The dashboard is built with a robust tech stack including React with Typescript & Next.js for the frontend, Go for the backend, Redis & Redis Stream for real-time data, PostgreSQL for database management, Firebase for push notifications, and hosted on Railway and Fly.io. This integrated system ensures efficient operations and enhanced customer satisfaction."
             // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
