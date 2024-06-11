@@ -25,7 +25,7 @@ function Projects() {
               imgPath={ocHome}
               isBlog={false}
               title="Office Coffee App"
-              description="The Office Coffee App saves you time by making it easy to enjoy high-quality coffee every day. With the app, users can pre-order their favorite coffee in advance and receive notifications when their order is ready, eliminating the stress and uncertainty of queuing. I led and built a team of 7 from scratch, including backend engineers, iOS engineers, a web engineer, and a QA specialist. The app is developed with Swift for iOS, Go for the backend, Redis & Redis Stream for real-time data, PostgreSQL for database management, Firebase for push notifications, and hosted on Railway and Fly.io."
+              description="The Office Coffee App saves you time by making it easy to enjoy high-quality coffee every day. With the app, users can pre-order their favorite coffee in advance and receive notifications when their order is ready, eliminating the stress and uncertainty of queuing. I led and built a team of 7 from scratch, including backend engineers, iOS engineers, a web engineer, and a QA specialist. The app is developed with Swift for iOS, Go for the backend, Redis & Redis Stream for real-time data, PostgreSQL for database management, Firebase for push notifications, and hosted on Fly.io."
               // demoLink="https://editor.soumya-jit.tech/"
             />
           </Col>
