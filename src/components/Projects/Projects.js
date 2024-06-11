@@ -67,7 +67,7 @@ function Projects() {
               imgPath={tiketCom}
               isBlog={false}
               title="Tiket.com Flight Search"
-              description="Tiket.com is one of the largest OTA system in Indonesia that serves millions of monthly active users. I was in charge of handling flight search service to maintain its functionality and to provide continuous innovation. The backend system was built with Java Spring Boot, MongoDB, Redis and Kafka, also hosted in GCP"
+              description="Tiket.com is one of the largest OTA system in Indonesia that serves millions of monthly active users. I was in charge as Lead Software Engineer for handling flight search & flight pricing service to maintain its functionality and to provide continuous innovation. The backend system was built with Java Spring Boot with WebFlux, MongoDB, Redis, Kafka, gRPC/REST, and hosted in GCP"
               demoLink="https://en.tiket.com/pesawat"
             />
           </Col>
